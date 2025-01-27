@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon University</title>
+</head>
+<style>
+    body {
+        background-color: #c5c7d1;
+    }
+
+    .wrapper {
+        width: 500px;
+        margin: 0 auto;
+        flex-direction: row;
+        margin-right: 280px;
+        margin-top: 250px;
+        display: flex;
+    }
+
+    h1 {
+        color: black;
+        font-family: "Tenor Sans", serif;
+        font-weight: 400;
+        font-size: 100px;
+        margin-top: 45px;
+    }
+
+    .container {
+        margin-left: 10px;
+        flex-direction: row;
+        display: flex;
+    }
+
+    h2 {
+        font-size: 50px;
+        color: black;
+        font-family: "Tenor Sans", serif;
+        font-weight: 400;
+    }
+
+    .footer {
+        position: absolute;
+        top: 55%;
+        left: 49%;
+    }
+    h3 {
+        font-size: 20px;
+        color: black;
+        font-family: "Tenor Sans", serif;
+        font-weight: 400px;
+        flex-direction: row;
+    }
+
+    .input1 {
+        position: absolute;
+        top: 43%;
+        left: 25%;
+    }
+
+    .input2 {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    } 
+
+    input {
+        width: 200px;
+        height: 25px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .buttons {
+        position: absolute;
+        top: 58%;
+        left: 390px;
+    }
+
+    button {
+        width: 90px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    nav {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .HU {
+        color: white;
+        text-decoration: none;
+        font-family: serif display, serif;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .HU:hover {
+        color: gray;
+    }
+
+    .about {
+        position: absolute;
+        top: 25px;
+        right: 150px;
+        color: white;
+        text-decoration: none;
+        font-family: serif display, serif;
+        font-weight: 600;
+    }
+
+    .about:hover {
+        color: gray;
+    }
+
+</style>    
+
+<body>
+
+    <nav>
+        <ul>
+            <a class="HU"href="http://127.0.0.1:5500/index.html">HU</a>
+        </ul>
+        <ul> 
+            <a class="about"href="https://www.youtube.com/watch?v=swcr4bu9M_o" >ABOUT</a>
+        </ul>
+
+    </nav>
+
+        <div class="wrapper">
+            <h1>HU</h1>
+        <div>
+
+            <div class="container">
+                <h2>Horizon University</h2>
+            </div>
+
+            <div class="footer">
+                <h3>“Expanding Minds, Shaping Futures“</h3>
+            </div>
+
+                <div class="input1">
+                    <input type="text" placeholder="STUDENT NUMBER" required>
+                </div>
+
+                <div class="input2">
+                    <input type="password" placeholder="PASSWORD" required>
+                </div>
+
+                    <div class="buttons">
+                        <button>SIGN IN</button>
+                        <button>REGISTER</button>
+                    </div>
+</body>
+</html>
