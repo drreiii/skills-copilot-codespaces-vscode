@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUSSY</title>
+</head>
+
+<style>
+    body {
+        background-image: url(/pictures/stussy+logos.jpg);
+    }
+    .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 50px 50px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-image: url(/pictures/stussy+logos.jpg);
+            color: solid black;
+            opacity: 100%;
+        }
+</style>
+<body>
+
+    <div class="nav">
+        <nav>
+            <a href="/STUSSY.html">STUSSY</a>
+            <a href="/ABOUT.html">ABOUT</a>
+            <a href="/NEWARRIVALS.html">NEW ARRIVALS</a>
+        </nav>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUSSY</title>
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .stussy {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+        }  
+        
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 50px 50px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-image: url(/pictures/stussy+logos.jpg);
+            color: solid black;
+            opacity: 100%;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            top: 15%;
+            left: 39%;
+        }
+
+
+        .stussy {
+            position: fixed;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1000px;
+            height: 500px;
+            perspective: 1000px; 
+        }  
+
+
+        .stus {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s; 
+        }
+
+
+        .stus:hover {
+            transform: rotateY(180deg); 
+        }
+
+        
+        .stusinner {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+        
+        .stusfront, .stusback {
+            backface-visibility: hidden; 
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        .stusfront img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        
+        .stusback {
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 10% 10%;
+        }
+
+  
+    </style>
+    
+</head>
+<body>
+
+    <div class="nav">
+        <nav>
+            <a href="/STUSSY.html">STUSSY</a>
+            <a href="/ABOUT.html">ABOUT</a>
+            <a href="/NEWARRIVALS.html">NEW ARRIVALS</a>
+        </nav>
+    </div>
+
+    <h1>WELCOME TO STUSSY</h1>
+
+    <div class="stussy">
+        <div class="stus">
+          <div class="stusinner">
+            <div class="stusfront">
+              <img src="/pictures/stus.jpg">
+            </div>
+
+            <div class="stusback">
+              <p>Stüssy is more than just a brand. it's a cultural icon. Born from the California surf scene in the early 1980s, it blends the laid-back vibe of coastal life with the rebellious spirit of streetwear. Founded by Shawn Stüssy, the brand started as a handmade surfboard label before evolving into a global fashion movement. With its signature logo a stylized, graffiti-inspired signature, Stüssy has influenced generations, shaping both street culture and high fashion. Today, Stüssy is a testament to authenticity, creativity, and the power of self-expression, crafting timeless styles that connect people around the world.</p>
+            </div>
+          </div>
+        </div>
+      </div>     
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<script lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW ARRIVALS</title>
+</head>
+
+<script>
+    function purchaseditem() {
+        alert ("YOU GOT NOW THIS COLLECTION,                                                 THANKYOU FOR PURCHASING STUSSY!!!");
+    }
+</script>
+
+
+<style>
+
+    html {
+        scroll-behavior: smooth;
+    }
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        nav a {
+            text-decoration: none;
+            padding: 50px 50px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-image: url(/pictures/stussy+logos.jpg);
+            color: solid black;
+            opacity: 100%;
+        }
+
+        .tee1 {
+            position: absolute;
+            top: 100px;
+            left: 5%;
+        }
+
+        .tee2 {
+            position: absolute;
+            top: 100px;
+            left: 30%;
+            margin-left: 8%;
+            margin-right: 9%;
+        }
+
+        .tee3 {
+            position: absolute;
+            top: 100px;
+            left: 70%;
+        }
+
+        .tee4 {
+            position: absolute;
+            top: 650px;
+            left: 5%;
+        }
+
+        .tee5 {
+            position: absolute;
+            top: 650px;
+            left: 30%;
+            margin-left: 8%;
+            margin-right: 9%;
+        }
+
+        .tee6 {
+            position: absolute;
+            top: 650px;
+            left: 70%;
+        }
+
+        .tee7 {
+            position: absolute;
+            top: 1300px;
+            left: 5%;
+        }
+
+        .tee8 {
+            position: absolute;
+            top: 1300px;
+            left: 30%;
+            margin-left: 10%;
+            margin-right: 9%;
+        }
+
+        .tee9 {
+            position: absolute;
+            top: 1300px;
+            left: 70%;
+        }
+
+        img {
+            overflow: hidden;
+            transition: transform 0.5s ease;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+
+        .footer {
+            background-image: url(/pictures/stussy.jpg);
+            width: 80%;
+            padding: 10%;
+            position: absolute;
+            top: 1900px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .buttons {
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+    
+
+        .buttons:hover {
+            background-color: black;
+            color: #fff;
+            transform: translateX(30px);
+        }
+
+
+
+</style>
+<body>
+    <div class="nav">
+        <nav>
+            <a href="/STUSSY.html">STUSSY</a>
+            <a href="/ABOUT.html">ABOUT</a>
+            <a href="/NEWARRIVALS.html">NEW ARRIVALS</a>
+            <a href="/CHECKOUT.html">CHECK OUT</a>
+        </nav>
+
+        <div class="tee1">
+            <img src="/pictures/stees.jpg" width="32%">
+            <p>TOUGHGEAR COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+
+        </div>
+
+        <div class="tee2">
+            <img src="/pictures/stees2.jpg" width="50%">
+            <p>MADE FOR THE WORLD COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee3">
+            <img src="/pictures/1905094_BLAC_1.jpg" width="90%">
+            <p>CROWN S COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee4">
+            <img src="/pictures/teeeee.jpg" width="33%">
+            <p>KINGPIN COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee5">
+            <img src="/pictures/tee.jpg" width="50%">
+            <p>TIME TO RELAX COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee6">
+            <img src="/pictures/ziup.jpg" width="78%">
+            <p>ZIPUP S COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee7">
+            <img src="/pictures/sporttee.jpg" width="32%">
+            <p>S JERSEY COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee8">
+            <img src="/pictures/stussyatl.jpg" width="50%">
+            <p>S CREW COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="tee9">
+            <img src="/pictures/1995095_BLAC_1.jpg" width="89%">
+            <p>WORLDWIDE COLLECTION</p>
+            <button class="buttons" onclick="purchaseditem()">2,000 ₱</button>
+        </div>
+
+        <div class="footer"></div>
+        
+
+
+</body>
+
+
+</html>
